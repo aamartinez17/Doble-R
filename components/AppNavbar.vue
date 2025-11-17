@@ -102,6 +102,7 @@ onBeforeUnmount(() => {
 .custom-navbar {
   background-color: var(--color-primary); /* Black */
   border-bottom: 1px solid var(--secondary-dark-grey);
+  /* border-bottom: 1px solid white; */
   padding: 0.5rem 0;
   transition: var(--transition-default);
 }

@@ -222,7 +222,8 @@ const serviceCategories = [
   background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
   background-size: cover;
   background-position: center;
-  padding-top: var(--spacing-top);
+  /* padding-top: var(--spacing-top); */
+  margin-top: var(--spacing-top);
 }
 
 .section-padding {

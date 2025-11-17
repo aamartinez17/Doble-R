@@ -229,7 +229,7 @@ useHead({
 <style scoped>
 /* Hero Styling */
 .hero-section {
-  height: 100vh;
+  height: calc(100vh - var(--spacing-top));
   /* min-height: 600px; */
   background: #000000;
   background: linear-gradient(180deg,rgba(0, 0, 0, 1) 60%,
@@ -239,7 +239,8 @@ useHead({
       rgba(225, 186, 102, 1) 100%);
   background-size: cover;
   background-position: center;
-  padding-top: var(--spacing-top);
+  /* padding-top: var(--spacing-top); */
+  margin-top: var(--spacing-top);
   overflow: hidden; /* Important for containing the animations */
 }
 
@@ -271,14 +272,14 @@ useHead({
 }
 
 .strip-white {
-  top: 15%;
+  top: 10%;
   right: -250px; /* Start off-screen right */
   /* transform: rotate(15deg); Slight angle */
   animation: slideInRightWhite 2s ease-out 0.5s forwards;
 }
 
 .strip-black {
-  top: 20%; /* Below white strip */
+  top: 15%; /* Below white strip */
   right: -250px; /* Start off-screen right */
   /* transform: rotate(15deg); Slight angle */
   animation: slideInRightBlack 2s ease-out 0.8s forwards;
@@ -332,19 +333,19 @@ useHead({
   }
 
   .strip-white {
-    top: 20%;
+    top: 10%;
     right: -150px;
     animation: slideInRightWhiteMobile 2s ease-out 0.8s forwards;
   }
 
   .strip-black {
-    top: 25%;
+    top: 15%;
     right: -150px;
     animation: slideInRightBlackMobile 2s ease-out 1.2s forwards;
   }
 
   .strip-gold {
-    bottom: 15%;
+    bottom: 10%;
     left: -150px;
     animation: slideInLeftGoldMobile 2s ease-out 1.6s forwards;
   }

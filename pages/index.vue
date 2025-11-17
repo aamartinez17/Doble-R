@@ -332,19 +332,19 @@ useHead({
   }
 
   .strip-white {
-    top: 25%;
+    top: 20%;
     right: -150px;
     animation: slideInRightWhiteMobile 2s ease-out 0.8s forwards;
   }
 
   .strip-black {
-    top: 30%;
+    top: 25%;
     right: -150px;
     animation: slideInRightBlackMobile 2s ease-out 1.2s forwards;
   }
 
   .strip-gold {
-    bottom: 20%;
+    bottom: 15%;
     left: -150px;
     animation: slideInLeftGoldMobile 2s ease-out 1.6s forwards;
   }

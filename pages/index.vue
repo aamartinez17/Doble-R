@@ -230,7 +230,7 @@ useHead({
 /* Hero Styling */
 .hero-section {
   height: 100vh;
-  min-height: 600px;
+  /* min-height: 600px; */
   background: #000000;
   background: linear-gradient(180deg,rgba(0, 0, 0, 1) 60%,
    rgba(75, 62, 34, 1) 100%,

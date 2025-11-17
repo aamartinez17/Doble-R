@@ -1,0 +1,88 @@
+/* assets/css/main.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+:root {
+  /* Brand Colors */
+  --color-primary: #000000;
+  --color-secondary: #cccccc;
+  --color-accent: #E1BA66; /* Gold */
+  
+  /* Derived Colors */
+  --primary-shadow: rgba(225, 186, 102, 0.2);
+  --secondary-dark-grey: #1a1a1a;
+  --light-text: #f8f9fa;
+  --dark-background: #0a0a0a;
+  --color-background: #000000;
+  --color-text-light: #FFFFFF;
+  --bg-primary: #000000;
+
+  /* Typography */
+  --font-family-body: 'Open Sans', sans-serif;
+  --font-family-headings: 'Montserrat', sans-serif;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 2.5rem;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --line-height-base: 1.6;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+  --spacing-top: 80px;
+
+  /* UI Elements */
+  --border-radius: 4px;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-default: all 0.3s ease-in-out;
+  --transition-color: color 0.3s ease;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden !important;
+  position: relative;
+}
+
+/* 2. Ensure the Nuxt app container also respects this */
+#__nuxt {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-family-body);
+  background-color: var(--color-background);
+  color: var(--color-text-light);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-headings);
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Customizing Bootstrap Buttons - Standard CSS Syntax */
+.btn-primary {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition-default);
+}
+
+.btn-primary:hover {
+  background-color: #cfa653; /* Slightly darker gold */
+  border-color: #cfa653;
+  color: var(--color-primary);
+}

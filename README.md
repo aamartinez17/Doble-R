@@ -12,12 +12,6 @@ git pull origin main
 git checkout main
 
 npm create nuxt@latest doble-r-productions
-npm install vue-router
-npm install bootstrap
-npm install swiper
-npm install aos
-npm install
-npm run dev
 ```
 
 Make sure to install dependencies:
@@ -34,6 +28,12 @@ yarn install
 
 # bun
 bun install
+
+npm install vue-router
+npm install bootstrap
+npm install swiper
+npm install aos
+npm install
 ```
 
 ## Development Server

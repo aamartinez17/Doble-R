@@ -119,7 +119,8 @@
 import { inject } from 'vue';
 const openDrawer = inject('openQuoteDrawer');
 
-const siteDomain = 'https://www.doblerproductions.com';
+const siteDomain = 'https://doble-r.netlify.app/';
+// const siteDomain = 'https://www.doblerproductions.com';
 const siteTitle = 'Services | Doble R Productions';
 const siteDescription = 'Explore our expert services.';
 const siteImage = `${siteDomain}/images/doble-r-productions.png`; 

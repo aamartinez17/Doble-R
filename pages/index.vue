@@ -198,7 +198,7 @@
 <script setup>
 // --- Configuration ---
 // ! IMPORTANT: Change this to your live domain name!
-const siteDomain = 'https://www.doblerproductions.com';
+const siteDomain = 'https://doble-r.netlify.app/';
 // const siteDomain = 'https://www.doblerproductions.com';
 const siteTitle = 'Home | Doble R Productions';
 const siteDescription = 'Doble R Productions specializes in Digital Marketing, Event Production, and Branding in New Market, VA. We help businesses stand out with strategic visuals and storytelling.';

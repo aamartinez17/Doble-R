@@ -161,7 +161,12 @@ const serviceCategories = [
 .services-hero {
   height: 60vh;
   min-height: 400px;
-  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 5%, 
+    rgba(225, 186, 102, 0) 100%
+  ), 
+    url('/images/servicesview-banner.png');
   background-size: cover;
   background-position: center;
   padding-top: var(--spacing-top);

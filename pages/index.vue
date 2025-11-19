@@ -44,7 +44,7 @@
           <div class="col-lg-6" data-aos="fade-left">
             <div class="about-image-placeholder position-relative">
               <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                src="/images/homeview-who-we-are.png" 
                 alt="Team working on design" 
                 class="img-fluid rounded shadow-lg border border-secondary"
               >

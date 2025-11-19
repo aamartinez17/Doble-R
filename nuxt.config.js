@@ -26,6 +26,11 @@ export default defineNuxtConfig({
       ]
     }
   },
+  runtimeConfig: {
+    public: {
+      recaptchaSiteKey: '6LeODhAsAAAAANNqF-ALhZ31ASaSRlmhdYHGAoOe', 
+    }
+  },
 
   compatibilityDate: '2025-01-01'
 })

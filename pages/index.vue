@@ -182,6 +182,16 @@
         </div>
       </div>
     </section>
+
+    <section id="contact-form" class="section-padding bg-black border-top border-secondary">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <QuoteForm :is-embedded="true" />
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
